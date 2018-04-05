@@ -1,49 +1,119 @@
+*{
+	
+	box-sizing: border-box;
+}
+
+
 body{
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	background: linear-gradient(rgb(255, 255, 255),rgb(246, 146, 30));
 }
-header{
+#natoraMenu{
 	width: 100%;
 	min-height: 50vh;
+	/*display: flex;*/
 }
-nav{
+@media(max-width: 640px){
+	#natoraMenu{
+		/*width: 100%;*/
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+}
+.menu{
 	width: 100%;
 	height: 15vh;
+
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+
 	position: fixed;
-	background: #fff;
+	top: 0;
+	left: 0;
+
+}
+@media(max-width: 640px){
+	.menu{
+		/*background-color: red;*/
+	}
 }
 .menu-item{
+	padding: 18px;
 	font-family: sans-serif;
 	font-size: 30px;
-	color: rgb(0, 0, 0);
 	font-style: normal;
-	text-align: center;
+	color: #000;
 	line-height: 31.2px;
+	text-align: center;
 	letter-spacing: 0.04em;
-	padding: 0 25px;
+
 	text-decoration: none;
 }
+@media(max-width: 640px){
+	.menu-item{
+		font-size: 17px;
+		padding: 0 10px;
+
+
+		/*background-color: blue;*/
+	}
+}
+.menu-item:hover {
+	text-decoration: underline;
+}
 .natoraLogo{
-	width: 18%;
+	width: 15%;
+	padding-top: 15vh;
+}
+.natoraLogo-mobile{
+	display: none;
+	width: 50%;
+	height: 6%;
+	margin: 0 auto;
+	margin-top: 15vh;
+}
+@media(max-width: 640px){
+	.natoraLogo{
+		width: 50%;
+		display: none;
+	}
+	.natoraLogo-mobile{
+		display: inline;
+	}
 }
 .natora{
 	font-family: arial;
-	font-size: 63px;
+	font-size: 50px;
 	font-style: normal;
 	text-align: left;
 	line-height: 90px;
-	letter-spacing: 0.02em;
 	text-transform: uppercase;
-	margin: 0 11%;
-	padding-top: 15vh;
+	padding-top: 2vh;
+	padding: 0 10px;
+}
+@media(max-width: 640px){
+	.natora{
+		font-size: 29px;
+		width: 100%;
+		
+	}
 }
 .natoraPeriferia{
-	width: 30%;
+	width: 25%;
+	height: 7%;
+
+}
+@media(max-width: 640px){
+	.natoraPeriferia{
+		width: 100%;
+		display: inline;
+	}
 }
 .natoraTitulo-part1{
 	color: rgb(0, 0, 255);
@@ -66,9 +136,17 @@ nav{
 #natoraSobre{
 	display: flex;
 	flex-direction: column;
-	margin-right: 22%;
-	margin-left: 22%;
+	align-items: center;
+	/*margin-right: 22%;
+	margin-left: 22%;*/
+	margin: 0 22%;
 	padding-top: 15vh;
+}
+@media(max-width: 640px){
+	#natoraSobre{
+		width: 100%;
+		margin: 0;
+	}
 }
 .natoraSobre-item{
 	font-family: sans-serif;
@@ -79,35 +157,80 @@ nav{
 	line-height: 38px;
 	letter-spacing: 0em;
 }
-
+@media(max-width: 640px){
+	.natoraSobre-item{
+		width: 90%;
+		align-items: center;
+	}
+}
 #natoraAcoes{
 	width: 100%;
-	display: flex;
-	justify-content: center;
+	padding-top: 10vh;
 	margin-top: 12%;
 	margin-bottom: 14%;
 	align-self: center;
-	padding-top: 15vh;
+	display: flex;
+	justify-content: center;
+
+}
+@media(max-width: 640px){
+	#natoraAcoes{
+		flex-direction: column;
+		align-items: center;
+	}
 }
 .natoraAcoes-item{
 	width: 25%;
 	height: 13%;
 	padding: 2%;
 }
+@media(max-width: 640px){
+	.natoraAcoes-item{
+		width: 90%;
+	}
+}
+.cineNatora-mobile{
+	display: none;
+}
+@media(max-width: 640px){
+	.cineNatora-mobile{
+		width: 100%;
+		display: block;
+	}
+}
+.campeonatoTravinha-mobile{
+	display: none;
+}
+@media(max-width: 640px){
+	.campeonatoTravinha-mobile{
+		width: 100%;
+		display: block;
+	}
+}
+.sarauNatoArte-mobile{
+	display: none;
+}
+@media(max-width: 640px){
+	.sarauNatoArte-mobile{
+		width: 100%;
+		display: block;
+	}
+}
 .Acoes-item{
 	text-decoration: underline;
 	text-align: left;
-	font-size: 25px;
+	font-size: 18px;
 	font-style: normal;
 	font-family: sans-serif;
 	color: rgb(0, 0, 255);
+	text-transform: uppercase;
 }
 .Acoes-paragrafo{
 	text-align: left;
 	line-height: 28px;
 	letter-spacing: 0.01em;
 	font-style: normal;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: arial;
 	color: rgb(0, 0, 0);
 }
@@ -118,26 +241,54 @@ nav{
 	color: rgb(255, 0, 0);
 	font-style: normal;
 	font-family: sans-serif;
+	text-transform: uppercase;
+}
+@media(max-width: 640px){
+	.Acoes-link{
+		display: none;
+	}
 }
 #natoraContato{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding-top: 10vh;
+	padding-top: 13vh;
 	padding-bottom: 1vh;
+	align-items: center;
+}
+@media(max-width: 640px){
+	#natoraContato{
+		padding-top: 26vh;
+		align-items: center;
+	}
 }
 .itemContato-espacamento{
-	width: 45%;
-	padding: 2vh;
+	width: 100%;
 }
 .natoraLogo-contato{
-	width: 20%;
+	width: 15%;
+}
+@media(max-width: 640px){
+	.natoraLogo-contato{
+		display: none;
+	}
 }
 .itemContato{
 	font-family: sans-serif;
-	font-size: 28px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+@media(max-width: 640px){
+	.itemContato{
+		font-size: 20px;
+		text-align: center;
+	}
 }
 .itemContato-socialweb{
-	width: 17%;
-
+	width: 8%;
+}
+@media(max-width: 640px){
+	.itemContato-socialweb{
+		width: 22%;
+		}
 }
