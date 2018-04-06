@@ -10,13 +10,13 @@ body{
 	padding: 0;
 	background: linear-gradient(rgb(255, 255, 255),rgb(246, 146, 30));
 }
-#natoraMenu{
+#natoraCabecalho{
 	width: 100%;
 	min-height: 50vh;
 	/*display: flex;*/
 }
 @media(max-width: 640px){
-	#natoraMenu{
+	#natoraCabecalho{
 		/*width: 100%;*/
 		display: flex;
 		flex-direction: column;
@@ -68,7 +68,7 @@ body{
 	text-decoration: underline;
 }
 .natoraLogo{
-	width: 15%;
+	width: 17%;
 	padding-top: 15vh;
 }
 .natoraLogo-mobile{
@@ -96,6 +96,7 @@ body{
 	text-transform: uppercase;
 	padding-top: 2vh;
 	padding: 0 10px;
+	margin: 0 11%;
 }
 @media(max-width: 640px){
 	.natora{
@@ -105,14 +106,23 @@ body{
 	}
 }
 .natoraPeriferia{
-	width: 25%;
+	width: 28%;
 	height: 7%;
-
 }
 @media(max-width: 640px){
 	.natoraPeriferia{
 		width: 100%;
-		display: inline;
+		display: none;
+	}
+}
+.natoraPeriferia-mobile{
+	width: 100%;
+	height: 5%;
+	display: none;
+}
+@media(max-width: 640px){
+	.natoraPeriferia-mobile{
+		width: 100%;
 	}
 }
 .natoraTitulo-part1{
@@ -248,25 +258,23 @@ body{
 		display: none;
 	}
 }
-#natoraContato{
+#rodaPe{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding-top: 13vh;
-	padding-bottom: 1vh;
-	align-items: center;
+	padding-top: 25vh;
+	padding-left: 10px;
 }
 @media(max-width: 640px){
-	#natoraContato{
+	#rodaPe{
 		padding-top: 26vh;
-		align-items: center;
 	}
 }
-.itemContato-espacamento{
+.natoraContato{
 	width: 100%;
 }
 .natoraLogo-contato{
-	width: 15%;
+	width: 14%;
 }
 @media(max-width: 640px){
 	.natoraLogo-contato{
@@ -275,12 +283,12 @@ body{
 }
 .itemContato{
 	font-family: sans-serif;
-	font-size: 18px;
+	font-size: 21px;
 	text-transform: uppercase;
 }
 @media(max-width: 640px){
 	.itemContato{
-		font-size: 20px;
+		font-size: 15px;
 		text-align: center;
 	}
 }
