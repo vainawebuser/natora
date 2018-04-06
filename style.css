@@ -9,7 +9,6 @@ body{
 	margin: 0;
 	padding: 0;
 	background: linear-gradient(rgb(255, 255, 255),rgb(246, 146, 30));
-	background-repeat: no-repeat;
 }
 #natoraCabecalho{
 	width: 100%;
@@ -101,9 +100,12 @@ body{
 }
 @media(max-width: 640px){
 	.natora{
-		font-size: 29px;
+		font-size: 34px;
+		font-style: normal;
 		width: 100%;
-		
+		line-height: 44px;
+		letter-spacing: 0.06em;
+		padding: 15px;
 	}
 }
 .natoraPeriferia{
@@ -118,21 +120,26 @@ body{
 }
 .natoraTitulo-part1{
 	color: rgb(0, 0, 255);
+	padding: 0;
 }
 .natoraTitulo-part2{
 	color: rgb(255, 0, 0);
+	padding: 0;
 }
 .natoraTitulo-part3{
 	color: rgb(57, 180, 74);
+	padding: 0;
 }
 .natoraTitulo-part4{
 	color: rgb(246, 146, 30);
 	vertical-align: top;
+	padding: 0;
 }
 .natoraTitulo-part5{
 	color: rgb(0, 0, 0);
 	width: 50px;
 	vertical-align: top;
+	padding: 0;
 }
 #natoraSobre{
 	display: flex;
