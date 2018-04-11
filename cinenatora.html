@@ -3,17 +3,11 @@
 <head>
 	<title>Cine Natora</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		body{
 			margin: 0;
 			background: #f9cb8f;
-		}
-		.botapVoltar{
-			width: 5%;
-			padding: 10px;
-			position: relative;
-			top: 9px;
-			left: 410px;
 		}
 		.cabecalho{
 			margin-bottom: 6vh;
@@ -95,6 +89,30 @@
 			margin-right: 10%;
 			color: #fff;
 		}
+		@media(max-width: 640px){
+			.menu-item{
+				font-size: 16px;
+				padding: 0 10px;
+
+
+				/*background-color: blue;*/
+			}
+		}
+		@media(max-width: 640px){
+			.natoraCine-item{
+				font-size: 20px;
+			}
+		}
+		@media(max-width: 640px){
+			.natoraCine{
+				height: 88vh;
+			}
+		}
+		@media(max-width: 640px){
+			.cabecalho{
+				margin-bottom: 2vh;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -108,7 +126,6 @@
 	</header>
 	<main>
 		<div class="natoraCine">
-			<a class="botapVoltar" href="index.html#natoraAcoes"><img class="botapVoltar" src="Assets/xix.png" alt="Botao para Voltar"></a>
 			<h2 class="natoraCine-item">Cine Natora</h2>
 			<img class="cineNatora-item" src="Assets/leste.jpg" alt="Imagem Cine Natora">
 			<p class="Acoes-paragrafo">O Cine Natora busca oferecer cultura, entretenimento e informação a partir da exibição de filmes e realização de debates, com animações, curtas de artistas locais e do Brasil, para a comunidade. Além disso, pretendemos oferecer sessões temáticas com assuntos que irão ser construídos em diálogo com os/as moradores/as do local.</p>
