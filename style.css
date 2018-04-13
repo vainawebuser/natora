@@ -230,13 +230,12 @@ body{
 .Acoes-item{
 	text-decoration: underline;
 	text-align: left;
-	font-size: 20px;
+	font-size: 22px;
 	font-family: azo-sans-uber, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	color: rgb(0, 0, 255);
 	text-transform: uppercase;
-	display: none;
 }
 .linkAcoes{
 	text-decoration: none;
@@ -248,6 +247,7 @@ body{
 		line-height: 36px;
 		margin-left: 12%;
 		margin-right: 11%;
+		display: none;
 	}
 }
 .Acoes-paragrafo{
