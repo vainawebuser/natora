@@ -3,6 +3,7 @@
 <head>
 	<title>Cine Natora</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.typekit.net/ccw3sfn.css">
 	<style>
 		body{
@@ -14,6 +15,7 @@
 		}
 		main{
 			display: flex;
+			width: 100%;
 			justify-content: center;
 		}
 		.sarauNatorarte-item{
@@ -30,11 +32,11 @@
 		.sarauNatorarte-item2{
 			width: 95%;
 			margin: 0 2.6%;
-			height: 60%;
+			height: 70vh;
 		}
 		.sarauNatorarte{
 			background: #f05a24;
-			height: 120vh;
+			height: 115vh;
 			width: 70%;
 			margin-bottom: 5vh;
 		}
@@ -91,6 +93,32 @@
 			margin-right: 2.6%;
 			color: #fff;
 		}
+		@media(max-width: 640px){
+			.menu-item{
+				font-size: 14px;
+			}
+		}
+		@media(max-width: 640px){
+			.Acoes-paragrafo{
+				font-size: 21px;
+			}
+		}
+		@media(max-width: 640px){
+			.sarauNatorarte-item{
+				font-size: 20px;
+			}
+		}
+		@media(max-width: 640px){
+			.sarauNatorarte{
+				height: 96vh;
+			}
+		}
+		@media(max-width: 640px){
+			.sarauNatorarte-item2{
+				width: 95.2%;
+				height: 21vh;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -106,7 +134,7 @@
 		<div class="sarauNatorarte">
 			<h2 class="sarauNatorarte-item">Campeonato de Travinha
 			Natora Champions League</h2>
-			<iframe class="sarauNatorarte-item2" width="750" height="435" src="https://www.youtube.com/embed/q_eoEPi0iBI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe class="sarauNatorarte-item2" src="https://www.youtube.com/embed/q_eoEPi0iBI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			<p class="Acoes-paragrafo">O objetivo do projeto NatorArte é marcar encontros semanais com jovens e crianças da comunidade para criação e recitação de poesias, rimas, músicas, exposições fotográficas e manifestações culturais em geral.</p>
 		</div>
 	</main>

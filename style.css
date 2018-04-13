@@ -320,10 +320,21 @@ body{
 .natoraContato{
 	width: 100%;
 	margin: 0 25%;
+	display: flex;
+	flex-direction: column;
+}
+.linksContato{
+	display: flex;
+	width: 100%;
 }
 @media(max-width: 640px){
 	.natoraContato{
 		margin: 0;
+	}
+}
+@media(max-width: 640px){
+	.linksContato{
+		justify-content: center;
 	}
 }
 .natoraLogo-contato{
@@ -348,11 +359,10 @@ body{
 	}
 }
 .itemContato-socialweb{
-	width: 17%;
+	width: 9vw;
 }
 @media(max-width: 640px){
 	.itemContato-socialweb{
-		width: 22.6%;
-		margin: 0 5%;
+		width: 20.2vw;
 	}
 }
