@@ -27,17 +27,13 @@ body{
 .menu{
 	width: 100%;
 	height: 15vh;
-	background: rgba(255,255,255,0.5);
-
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-
 	position: fixed;
 	top: 0;
 	left: 0;
-
 }
 @media(max-width: 640px){
 	.menu{
@@ -55,15 +51,12 @@ body{
 	line-height: 31.2px;
 	text-align: center;
 	letter-spacing: 0.04em;
-
 	text-decoration: none;
 }
 @media(max-width: 640px){
 	.menu-item{
-		font-size: 18px;
+		font-size: 17px;
 		padding: 0 10px;
-
-
 		/*background-color: blue;*/
 	}
 }
@@ -104,12 +97,14 @@ body{
 }
 @media(max-width: 640px){
 	.natora{
-		font-size: 34px;
+		font-size: 29px;
 		font-style: normal;
 		width: 100%;
 		line-height: 44px;
 		letter-spacing: 0.06em;
 		padding: 15px;
+		margin-left: 9%;
+		margin-right: 8%; 
 	}
 }
 .natoraPeriferia{
@@ -174,6 +169,10 @@ body{
 	.natoraSobre-item{
 		width: 90%;
 		align-items: center;
+		font-size: 16px;
+		line-height: 28px;
+		margin-left: 12%;
+		margin-right: 8%;
 	}
 }
 #natoraAcoes{
@@ -184,7 +183,6 @@ body{
 	align-self: center;
 	display: flex;
 	justify-content: center;
-
 }
 @media(max-width: 640px){
 	#natoraAcoes{
@@ -199,7 +197,7 @@ body{
 }
 @media(max-width: 640px){
 	.natoraAcoes-item{
-		width: 90%;
+		width: 100%;
 	}
 }
 .cineNatora-mobile{
@@ -238,6 +236,19 @@ body{
 	font-weight: 400;
 	color: rgb(0, 0, 255);
 	text-transform: uppercase;
+	display: none;
+}
+.linkAcoes{
+	text-decoration: none;
+}
+@media(max-width: 640px){
+	.Acoes-item{
+		font-size: 30px;
+		text-decoration: none;
+		line-height: 36px;
+		margin-left: 12%;
+		margin-right: 11%;
+	}
 }
 .Acoes-paragrafo{
 	text-align: left;
@@ -248,6 +259,36 @@ body{
 	font-weight: 400;
 	font-size: 18px;
 	color: rgb(0, 0, 0);
+}
+.Acoes-itemMobile{
+	display: none;
+	text-align: left;
+	font-size: 20px;
+	font-family: azo-sans-uber, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: rgb(0, 0, 255);
+	text-transform: uppercase;
+}
+@media(max-width: 640px){
+	.Acoes-itemMobile{
+		font-size: 30px;
+		text-decoration: none;
+		display: none;
+		line-height: 36px;
+		margin-left: 12%;
+		margin-right: 11%;
+		display: block;
+	}
+}
+@media(max-width: 640px){
+	.Acoes-paragrafo{
+		font-size: 16px;
+		line-height: 28px;
+		margin-left: 12%;
+		margin-right: 11%;
+		margin-bottom: 10vh;
+	}
 }
 .Acoes-link{
 	text-decoration: underline;
@@ -273,6 +314,7 @@ body{
 @media(max-width: 640px){
 	#rodaPe{
 		padding-top: 2vh;
+		margin: 0;
 	}
 }
 .natoraContato{
@@ -312,5 +354,5 @@ body{
 	.itemContato-socialweb{
 		width: 22.6%;
 		margin: 0 5%;
-		}
+	}
 }
