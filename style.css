@@ -140,7 +140,7 @@ body{
 	/*margin-right: 22%;
 	margin-left: 22%;*/
 	margin: 0 22%;
-	margin-top: 15vh;
+	padding-top: 120px;
 }
 @media(max-width: 640px){
 	#natoraSobre{
