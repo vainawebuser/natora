@@ -1,55 +1,3 @@
-/*
- * The Typekit service used to deliver this font or fonts for use on websites
- * is provided by Adobe and is subject to these Terms of Use
- * http://www.adobe.com/products/eulas/tou_typekit. For font license
- * information, see the list below.
- *
- * azo-sans-uber:
- *   - http://typekit.com/eulas/000000000000000000014a2e
- * azo-sans-web:
- *   - http://typekit.com/eulas/000000000000000000013f4e
- *   - http://typekit.com/eulas/000000000000000000013f4f
- *   - http://typekit.com/eulas/000000000000000000013f4b
- *   - http://typekit.com/eulas/000000000000000000013f8f
- *
- * © 2009-2018 Adobe Systems Incorporated. All Rights Reserved.
- */
-/*{"last_published":"2018-04-11 19:39:32 UTC"}*/
-
-@import url("https://p.typekit.net/p.css?s=1&k=ccw3sfn&ht=tk&f=18438.18439.18440.18445.22797&a=5318639&app=typekit&e=css");
-
-@font-face {
-font-family:"azo-sans-web";
-src:url("https://use.typekit.net/af/d49f7b/000000000000000000013f4e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/d49f7b/000000000000000000013f4e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/d49f7b/000000000000000000013f4e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-font-style:normal;font-weight:700;
-}
-
-@font-face {
-font-family:"azo-sans-web";
-src:url("https://use.typekit.net/af/a5982b/000000000000000000013f4f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/a5982b/000000000000000000013f4f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/a5982b/000000000000000000013f4f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
-font-style:italic;font-weight:700;
-}
-
-@font-face {
-font-family:"azo-sans-web";
-src:url("https://use.typekit.net/af/92bad5/000000000000000000013f4b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/92bad5/000000000000000000013f4b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/92bad5/000000000000000000013f4b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
-font-style:italic;font-weight:400;
-}
-
-@font-face {
-font-family:"azo-sans-web";
-src:url("https://use.typekit.net/af/405634/000000000000000000013f8f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/405634/000000000000000000013f8f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/405634/000000000000000000013f8f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-font-style:normal;font-weight:400;
-}
-
-@font-face {
-font-family:"azo-sans-uber";
-src:url("https://use.typekit.net/af/6da26a/000000000000000000014a2e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/6da26a/000000000000000000014a2e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/6da26a/000000000000000000014a2e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-font-style:normal;font-weight:400;
-}
-
-.tk-azo-sans-web { font-family: "azo-sans-web",sans-serif; }
-.tk-azo-sans-uber { font-family: "azo-sans-uber",sans-serif; }
 body{
 	width: 100%;
 	margin: 0;
@@ -73,6 +21,7 @@ body{
 .menu{
 	width: 100%;
 	height: 15vh;
+	background: rgba(255,255,255,0.5);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -80,16 +29,14 @@ body{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: rgba(255,255,255,0.5);
 }
 @media(max-width: 640px){
 	.menu{
-		/*background-color: red;*/
+		
 	}
 }
 .menu-item{
 	padding: 18px;
-	margin:1px;
 	font-size: 26px;
 	font-family: azo-sans-web, sans-serif;
 	font-style: normal;
@@ -112,7 +59,7 @@ body{
 }
 .natoraLogo{
 	width: 17%;
-	padding-top: 15vh;
+	margin-top: 15vh;
 }
 .natoraLogo-mobile{
 	display: none;
@@ -128,6 +75,7 @@ body{
 	}
 	.natoraLogo-mobile{
 		display: inline;
+		margin-bottom: 4vh;
 	}
 }
 .natora{
@@ -138,20 +86,18 @@ body{
 	text-align: left;
 	line-height: 90px;
 	text-transform: uppercase;
-	padding-top: 2vh;
-	padding: 0 10px;
+	margin-top: 2vh;
+	/*padding: 0 10px;*/
 	margin: 0 11%;
 }
 @media(max-width: 640px){
 	.natora{
+		width: 83%;
+		margin: 0 auto;
 		font-size: 29px;
 		font-style: normal;
-		width: 100%;
 		line-height: 44px;
-		letter-spacing: 0.06em;
-		padding: 15px;
-		margin-left: 9%;
-		margin-right: 8%; 
+		letter-spacing: 0.06em; 
 	}
 }
 .natoraPeriferia{
@@ -194,12 +140,13 @@ body{
 	/*margin-right: 22%;
 	margin-left: 22%;*/
 	margin: 0 22%;
-	padding-top: 15vh;
+	margin-top: 15vh;
 }
 @media(max-width: 640px){
 	#natoraSobre{
 		width: 100%;
 		margin: 0;
+		margin-top: 15vh;
 	}
 }
 .natoraSobre-item{
@@ -224,7 +171,6 @@ body{
 }
 #natoraAcoes{
 	width: 100%;
-	padding-top: 10vh;
 	margin-top: 12%;
 	margin-bottom: 14%;
 	align-self: center;
@@ -245,6 +191,8 @@ body{
 @media(max-width: 640px){
 	.natoraAcoes-item{
 		width: 100%;
+		padding:0;
+		margin:0;
 	}
 }
 .cineNatora-mobile{
@@ -254,6 +202,7 @@ body{
 	.cineNatora-mobile{
 		width: 100%;
 		display: block;
+		margin-bottom: 10vh;
 	}
 }
 .campeonatoTravinha-mobile{
@@ -262,9 +211,11 @@ body{
 @media(max-width: 640px){
 	.campeonatoTravinha-mobile{
 		width: 100%;
+		margin:0;
 		display: block;
+		margin-bottom: 10vh;
 	}
-}
+}]]
 .sarauNatoArte-mobile{
 	display: none;
 }
@@ -272,6 +223,7 @@ body{
 	.sarauNatoArte-mobile{
 		width: 100%;
 		display: block;
+		margin-bottom: 10vh;
 	}
 }
 .Acoes-item{
@@ -314,7 +266,7 @@ body{
 	font-family: azo-sans-uber, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	color: rgb(0, 0, 255);
+	co\lor: rgb(0, 0, 255);
 	text-transform: uppercase;
 }
 @media(max-width: 640px){
@@ -355,12 +307,10 @@ body{
 #rodaPe{
 	width: 100%;
 	display: flex;
-	padding-top: 25vh;
 	margin-bottom: 10vh;
 }
 @media(max-width: 640px){
 	#rodaPe{
-		padding-top: 2vh;
 		margin: 0;
 	}
 }
@@ -370,14 +320,15 @@ body{
 	display: flex;
 	flex-direction: column;
 }
+@media(max-width: 640px){
+	.natoraContato{
+		margin: 0 auto;
+		align-items: center;
+	}
+}
 .linksContato{
 	display: flex;
 	width: 100%;
-}
-@media(max-width: 640px){
-	.natoraContato{
-		margin: 0;
-	}
 }
 @media(max-width: 640px){
 	.linksContato{
@@ -386,6 +337,7 @@ body{
 }
 .natoraLogo-contato{
 	width: 25%;
+	margin-bottom: 20px;
 }
 @media(max-width: 640px){
 	.natoraLogo-contato{
@@ -393,6 +345,8 @@ body{
 	}
 }
 .itemContato{
+	margin:0;
+	/*margin-bottom: 10px;*/
 	font-family: azo-sans-uber, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -401,8 +355,10 @@ body{
 }
 @media(max-width: 640px){
 	.itemContato{
+		width: 76%;
 		font-size: 16.6px;
-		text-align: center;
+		text-align: left;
+		justify-content: center;
 	}
 }
 .itemContato-socialweb{
@@ -410,6 +366,15 @@ body{
 }
 @media(max-width: 640px){
 	.itemContato-socialweb{
-		width: 20.2vw;
+		width: 28vw;
+	}
+}
+.natoraPeriferia-mobile{
+	width: 100%;
+	display: none;
+}
+@media(max-width: 640px){
+	.natoraPeriferia-mobile{
+		display: inline;
 	}
 }
